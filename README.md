@@ -1,4 +1,4 @@
-# CWAPasswordExtractor
+# CWA Password Extractor
 Utility for Extracting all passwords from ConnectWise Automate (E.g. while migrating to a new system). Outputs a csv file with all fields displayed in CWA for stored credentials.
 
 ConnectWise don't seem to be fond of giving you an unencrypted dump of your passwords stored in CW Automate so I dug into Developer Tools in Chrome with the CWA web client open and discovered the following:
