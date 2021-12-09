@@ -10,3 +10,6 @@ Usage: `python CW_Automate_PW_Extractor.py --clientid '00000000-0000-0000-0000-0
 You can get your clientid and bearer token from the developer tools while you have the web client open (it might also work if you've got an existing API key and auth/token flow elsewhere but I haven't tried that, this is just quick and dirty). I tend to get these parameters from the "deploymentlogins?" request like so:
 ![image](https://user-images.githubusercontent.com/16311787/145383318-88f6fbf6-2d3f-4302-b45d-7ab9791de4e7.png)
 
+# Requirements
+- pandas (for exporting to csv)
+- requests (for making API calls)
